@@ -1,0 +1,28 @@
+name: login_screen_presnc
+description: Novo aplicativo para teste de login page
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/full-bloom.png
+    - assets/images/mountains.jpeg
+    - assets/images/mountains.jpg
+  fonts:
+    - family: icomoon
+      fonts:
+        - asset: assets/fonts/IcoMoon.ttf
